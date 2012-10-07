@@ -1,3 +1,7 @@
+;; DESCRIPTION: Follow along the DB example found in the Practical Common Lisp Book
+;; AUTHOR: rob Arseneault
+;; EMAIL: shoelessrob@gmail.com
+
 (defvar *db* nil)
 
 (defun add-record (cd) (push cd *db*))
